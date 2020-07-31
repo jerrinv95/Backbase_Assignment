@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+     android:layout_height="match_parent">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Now Playing"
+        android:textColor="@color/colorPrimary"
+        android:fontFamily="sans-serif-condensed-medium"
+        ></TextView>
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/horizonatal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="10dp">
+    </androidx.recyclerview.widget.RecyclerView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Most Popular"
+        android:layout_marginTop="220dp"
+        android:textColor="@color/colorPrimary"
+        android:layout_marginBottom="5dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        ></TextView>
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_marginTop="240dp"
+        android:id="@+id/recyclerview"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"></androidx.recyclerview.widget.RecyclerView>
+
+</RelativeLayout>
+    
